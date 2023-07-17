@@ -1,0 +1,17 @@
+{
+  "name": "Cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --headed --browser chrome --spec cypress/e2e/kuncie/*.cy.js",
+    "open": "cypress open"
+  },
+  "keywords": [],
+  "author": "Nur Khalik",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.17.1",
+    "cypress-mochawesome-reporter": "^3.5.1"
+  }
+}
